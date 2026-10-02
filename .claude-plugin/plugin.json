@@ -1,0 +1,20 @@
+{
+  "name": "bios",
+  "displayName": "BIOS",
+  "version": "1.0.0",
+  "description": "Your store's numbers, what's waiting for your yes, and your BIOS team, in Claude.",
+  "author": {
+    "name": "Helion AI Infrastructure",
+    "email": "sutton@helionhq.com",
+    "url": "https://usebios.com"
+  },
+  "homepage": "https://usebios.com",
+  "repository": "https://github.com/SuttonH-HelionAI/bios-plugin",
+  "license": "MIT",
+  "keywords": ["ecommerce", "shopify", "klaviyo", "meta-ads", "operations"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://usebios.com/support",
+  "supportUrl": "https://usebios.com/support",
+  "privacyPolicyUrl": "https://usebios.com/privacy",
+  "termsOfServiceUrl": "https://usebios.com/terms"
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bios",
+  "version": "1.0.0",
+  "description": "Your store's numbers, what waits for your yes, and your BIOS team, inside ChatGPT and Codex.",
+  "author": {
+    "name": "Helion",
+    "email": "sutton@helionhq.com",
+    "url": "https://usebios.com"
+  },
+  "homepage": "https://usebios.com",
+  "license": "UNLICENSED",
+  "keywords": ["ecommerce", "shopify", "klaviyo", "meta-ads", "operations"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BIOS",
+        "shortDescription": "Your store's numbers and your BIOS team, in chat",
+        "longDescription": "BIOS runs an e-commerce company's AI team. Connect your BIOS account to read revenue, orders and ad spend from your store, see what your team is waiting for a yes on, and ask your team for work. BIOS never guesses a number: anything it cannot read from your store is marked unavailable. Nothing is sent to customers, published or changed in your store from chat: your team plans the work in BIOS, using the AI subscriptions connected there, and any send, publish or spend it proposes waits for your yes in the BIOS app.",
+        "developerName": "Helion",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://usebios.com",
+        "supportURL": "https://usebios.com/support",
+        "privacyPolicyURL": "https://usebios.com/privacy",
+        "termsOfServiceURL": "https://usebios.com/terms",
+        "defaultPrompt": [
+          "Use BIOS to give me this week's business review",
+          "Use BIOS to show what is waiting for my yes",
+          "Use BIOS to ask my team to plan a campaign"
+        ],
+        "brandColor": "#0A0A0A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
